@@ -26,3 +26,8 @@ If the time constraint is 1 week, I would probably only end up with a prototype 
 If the time constraint is 1 month, as I mentioned this might be enough for an implementation of this approach if all goes well.
 
 If the time constraint is 4 months, this is enough to really perfect things. This leaves enough time to do some prior research on best practices for solving similar problems, software tools that come in handy, experimenting with several approaches in order to choose the best one, writing thorough tests and doing thorough code reviews and perhaps even doing some user testing.
+
+## How to run/test this code:
+1) In a terminal window, run `python server.py` to start up the server locally.
+
+2) In another terminal window, run `curl -H "Content-Type: text/plain" -d '<some keywords>' -X POST http://localhost:8000/`, replacing `<some keywords>` with your search terms.
